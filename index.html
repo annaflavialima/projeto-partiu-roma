@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts - montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap - CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+        defer></script>
+
+    <title>Partiu, Roma</title>
+</head>
+
+<body>
+    <!-- logo - inicio -->
+    <header class="container-fluid">
+        <div class="container mt-2 d-flex justify-content-center" id="logo-top">
+            <img src="img/logo.png" alt="logo" class="img-fluid">
+        </div>
+    </header>
+    <!-- logo - fim -->
+
+    <!-- barra de navegação - inicio -->
+    <nav class="navbar navbar-expand-md primary-bg-color p-1 sticky-top my-2" id="bottom-navbar-container">
+        <!-- barra de navegação para telas <768px -->
+        <div class="container justify-content-around">
+            <ul class="navbar-nav d-md-none d-flex flex-row" id="listIcon">
+                <li class="nav-item mx-3">
+                    <a href="#logo-top" class="nav-link">
+                        <i class="bi bi-house-fill color-secondary-text"></i>
+                    </a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="#roma" class="nav-link">
+                        <img src="img/coliseum.png" class="img-fluid coliseumIcon">
+                    </a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="#oquever" class="nav-link">
+                        <i class="bi bi-eye-fill color-secondary-text"></i>
+                    </a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="#informacoes" class="nav-link">
+                        <i class="bi bi-lightbulb-fill color-secondary-text"></i>
+                    </a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="#mapa" class="nav-link">
+                        <i class="bi bi-geo-alt-fill color-secondary-text"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- barra de navegação para telas >=768px-->
+            <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse justify-content-center" id="bottom-navbar">
+                <li class="nav-item">
+                    <a href="#logo-top" class="nav-link color-secondary-text">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#roma" class="nav-link color-secondary-text">Roma</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#oquever" class="nav-link color-secondary-text">O que ver</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#informacoes" class="nav-link color-secondary-text">Informações ao viajante</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#mapa" class="nav-link color-secondary-text">Mapa</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- barra de navegação - fim -->
+
+    <!-- carousel - inicio -->
+    <div class="container mt-4 mb-3">
+        <aside id="carousel-roma" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-roma" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-roma" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-roma" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/coliseu2.JPG" class="d-block w-100" alt="coliseum">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/trevi2.JPG" class="d-block w-100" alt="fontana di trevi">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/panteon1.JPG" class="d-block w-100" alt="pantheon">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-roma" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-roma" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </aside>
+    </div>
+    <!-- carousel - fim -->
+
+    <!-- seta para baixo - inicio -->
+    <div class="container text-center" id="arrowDown">
+        <a href="#oquever">
+            <i class="bi bi-arrow-down-circle-fill"></i>
+        </a>
+    </div>
+    <!-- seta para baixo - fim -->
+
+    <!-- conteudo - inicio -->
+    <main class="container-fluid mb-4">
+
+        <!-- roma - inicio -->
+        <section class="container mt-2 mb-4" id="roma">
+            <h1 class="color-text fw-bold">Roma</h1>
+            <p>Roma é conhecida como a <strong class="color-text">“Cidade Eterna”</strong> porque nela o tempo parece
+                ter parado há séculos. <strong class="color-text">Seus monumentos e as ruínas de imponentes
+                    edifícios</strong> fazem com que um passeio por suas ruas se torne uma viagem no tempo à época de
+                máximo esplendor da capital.</p>
+            <p>Com uma longa e interessante história nas suas costas, Roma é uma cidade que atrai visitantes de todo o
+                mundo graças aos seus impressionantes <strong class="color-text">monumentos e restos
+                    arqueológicos</strong> procedentes da Antiguidade. Há infinitas razões para visitar Roma, se
+                apaixonar pela cidade e desejar voltar.</p>
+            <p>Com mais de 8 milhões de turistas internacionais por ano, Roma é a <strong class="color-text">terceira
+                    cidade europeia que mais visitantes atrai</strong>, atrás de Londres e Paris, com a qual mantém uma
+                intensa luta pelo posto de cidade mais romântica da Europa.</p>
+        </section>
+        <!-- roma - fim -->
+
+        <!-- o que ver - inicio -->
+        <section class="container my-4" id="oquever">
+            <h2 class="color-text fw-bold">O que ver</h2>
+            <p>Conheça as praças, as fontes, os monumentos e as atrações mais importantes que ver em Roma. Toda a cidade
+                de <strong class="color-text">Roma é um museu ao ar livre</strong> e essas são suas obras-primas. </p>
+
+            <!-- telas <768px -->
+            <article class="d-block d-md-none" id="telasMenores">
+                <div class="col-12">
+                    <div class="card fotos mb-4">
+                        <figure class="figura-card">
+                            <img src="img/coliseu1.JPG" class="card-img-top h-100" alt="interior do Coliseu">
+                            <figcaption class="legenda-foto">Interior do Coliseu</figcaption>
+                        </figure>
+                        <div class="card-body descricao">
+                            <h5 class="card-title">Coliseu</h5>
+                            <p class="card-text mb-2">O Coliseu de Roma, conhecido na Antiguidade como Anfiteatro
+                                Flaviano, é o principal símbolo de Roma, uma imponente construção com quase 2.000 anos de idade. Em 7 de julho de 2007, o Coliseu se tornou uma das Sete Maravilhas do Mundo Moderno.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card fotos mb-4">
+                        <figure class="figura-card">
+                            <img src="img/foro1.JPG" class="card-img-top h-100" alt="Foro Romano">
+                            <figcaption class="legenda-foto">Foro Romano</figcaption>
+                        </figure>
+                        <div class="card-body descricao">
+                            <h5 class="card-title">Foro Romano</h5>
+                            <p class="card-text mb-2">O Foro Romano representava o Centro da antiga Roma. No local se
+                                desenvolvia a vida pública, cultural e econômica da época republicana e o Império. O que
+                                sobrou desses prédios ainda está lá, o que significa um farto cardápio de história e
+                                arquitetura a ser degustado ao ar livre.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card fotos mb-4">
+                        <figure class="figura-card">
+                            <img src="img/trevi1.JPG" class="card-img-top h-100" alt="Fontana di Trevi">
+                            <figcaption class="legenda-foto">Fontana di Trevi</figcaption>
+                        </figure>
+                        <div class="card-body descricao">
+                            <h5 class="card-title">Fontana di Trevi</h5>
+                            <p class="card-text mb-2">A Fontana di Trevi, com 20m de largura por 26m de altura, é a
+                                maior fonte de Roma. O nome de Trevi deriva de Tre Vie (três vias), já que a fonte era o
+                                ponto de encontro de três ruas. Como dado curioso, a cada ano é retirado aproximadamente
+                                um milhão de euros da fonte. Desde 2007, esse dinheiro é usado com fins benéficos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card fotos mb-4">
+                        <figure class="figura-card">
+                            <img src="img/vittorio1.JPG" class="card-img-top h-100"
+                                alt="Monumento a Vittorio Emanuele II">
+                            <figcaption class="legenda-foto">Monumento a Vittorio Emanuele II</figcaption>
+                        </figure>
+                        <div class="card-body descricao">
+                            <h5 class="card-title">Monumento a Vittorio Emanuele II</h5>
+                            <p class="card-text mb-2">O Monumento, com 135m de largura e 70m de altura está composto por
+                                dezenas de majestosas colunas coríntias e intermináveis escadas, tudo isso feito em
+                                mármore branco. Foi inaugurado em 1911 para homenagear Vittorio Emanuele II, primeiro
+                                rei da Itália depois da unificação.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card fotos mb-4">
+                        <figure class="figura-card">
+                            <img src="img/panteon1.JPG" class="card-img-top h-100" alt="Pantheon de Roma">
+                            <figcaption class="legenda-foto">Pantheon de Roma</figcaption>
+                        </figure>
+                        <div class="card-body descricao">
+                            <h5 class="card-title">Pantheon</h5>
+                            <p class="card-text mb-2">O Pantheon O monumento mais bem preservado da Roma Antiga, desde o
+                                século VII é um templo católico. No Interior estão as tumbas de diversos reis da Itália
+                                e diversas obras de arte, destacam-se os túmulos do rei Vittorio Emanuele II e do pintor
+                                e arquiteto renascentista Rafael. Por ser hoje uma igreja cristã, sua entrada é
+                                gratuita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card fotos mb-4">
+                        <figure class="figura-card">
+                            <img src="img/tritoni.JPG" class="card-img-top h-100" alt="Fontana del Tritone">
+                            <figcaption class="legenda-foto">Fontana del Tritone</figcaption>
+                        </figure>
+                        <div class="card-body descricao">
+                            <h5 class="card-title">Fontana del Tritone</h5>
+                            <p class="card-text mb-2">No centro da Piazza Barberini está a Fontana del Tritone. A
+                                escultura mostra Tritão, mítico personagem da mitologia grega, filho de Netuno, cujo
+                                tronco era de um homem e as pernas eram a cauda de um peixe, sorvendo água de uma
+                                concha, sendo apoiado por quatro grandes peixes de duras feições.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card fotos mb-4">
+                        <figure class="figura-card">
+                            <img src="img/manjedoura.JPG" class="card-img-top h-100"
+                                alt="Relíquia da manjedoura de Jesus Cristo">
+                            <figcaption class="legenda-foto">Relíquia da manjedoura de Jesus Cristo</figcaption>
+                        </figure>
+                        <div class="card-body descricao">
+                            <h5 class="card-title">Basílica de Santa Maria Maggiore</h5>
+                            <p class="card-text mb-2">A Basílica de Santa Maria Maggiore é considerada a maior das
+                                igrejas dedicadas à Virgem Maria em Roma. A basílica abriga os restos do “berço sagrado”
+                                no qual Jesus recém-nascido foi colocado. Suas tábuas de madeira são compatíveis com o
+                                ácereiro, árvore que existia há dois mil anos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card fotos mb-4">
+                        <figure class="figura-card">
+                            <img src="img/vaticano.JPG" class="card-img-top h-100" alt="Basílica de São Pedro">
+                            <figcaption class="legenda-foto">Basílica de São Pedro</figcaption>
+                        </figure>
+                        <div class="card-body descricao">
+                            <h5 class="card-title">Vaticano</h5>
+                            <p class="card-text mb-2">O Vaticano, sede da Igreja Católica, é uma cidade-Estado que está
+                                situada dentro de Roma. Tem apenas 0,44km<sup>2</sup>, e com uma população estimada de
+                                1.000 habitantes, é a menor entidade territorial do mundo. Na Cidade do Vaticano há três
+                                visitas que se destacam: a Praça de São Pedro, a Basílica de São Pedro e os Museus
+                                Vaticanos, recinto onde está a Capela Sistina.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- telas >=768px -->
+            <article class="d-md-block d-none" id="telasMaiores">
+                <div class="col-12 mb-4">
+                    <div class="card fotos">
+                        <div class="row g-0">
+                            <figure class="figura-card col-6">
+                                <img src="img/coliseu1.JPG" class="img-fluid rounded-start foto-md h-80"
+                                    alt="interior do Coliseu">
+                                <figcaption class="legenda-foto">Interior do Coliseu</figcaption>
+                            </figure>
+                            <div class="card-body col-6 texto-foto-md">
+                                <h5 class="card-title mb-3">Coliseu</h5>
+                                <p class="card-text">O Coliseu de Roma, conhecido na Antiguidade como Anfiteatro
+                                    Flaviano, é
+                                    o principal símbolo de Roma, uma imponente construção com quase 2.000 anos de idade.
+                                    Em
+                                    7 de julho de 2007, o Coliseu se tornou uma das Sete Maravilhas do Mundo Moderno.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card fotos">
+                        <div class="row g-0">
+                            <figure class="figura-card col-6">
+                                <img src="img/foro1.JPG" class="img-fluid rounded-start foto-md h-80" alt="Foro Romano">
+                                <figcaption class="legenda-foto">Foro Romano</figcaption>
+                            </figure>
+                            <div class="card-body col-6 texto-foto-md">
+                                <h5 class="card-title mb-3">Foro Romano</h5>
+                                <p class="card-text">O Foro Romano representava o Centro da antiga Roma. No local se
+                                    desenvolvia a vida pública, cultural e econômica da época republicana e o Império. O
+                                    que sobrou desses prédios ainda está lá, o que significa um farto cardápio de
+                                    história e arquitetura a ser degustado ao ar livre.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card fotos">
+                        <div class="row g-0">
+                            <figure class="figura-card col-6">
+                                <img src="img/trevi1.JPG" class="img-fluid rounded-start foto-md h-80"
+                                    alt="Fontana di Trevi">
+                                <figcaption class="legenda-foto">Fontana di Trevi</figcaption>
+                            </figure>
+                            <div class="card-body col-6 texto-foto-md">
+                                <h5 class="card-title mb-3">Fontana di Trevi</h5>
+                                <p class="card-text">A Fontana di Trevi, com 20m de largura por 26m de altura, é a maior
+                                    fonte de Roma. O nome de Trevi deriva de Tre Vie (três vias), já que a fonte era o
+                                    ponto de encontro de três ruas. Como dado curioso, a cada ano é retirado
+                                    aproximadamente um milhão de euros da fonte. Desde 2007, esse dinheiro é usado com
+                                    fins benéficos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card fotos">
+                        <div class="row g-0">
+                            <figure class="figura-card col-6">
+                                <img src="img/vittorio1.JPG" class="img-fluid rounded-start foto-md h-80"
+                                    alt="Monumento a Vittorio Emanuele II">
+                                <figcaption class="legenda-foto">Monumento a Vittorio Emanuele II</figcaption>
+                            </figure>
+                            <div class="card-body col-6 texto-foto-md">
+                                <h5 class="card-title mb-3 text-start">Monumento a Vittorio Emanuele II</h5>
+                                <p class="card-text">O Monumento, com 135m de largura e 70m de altura está
+                                    composto por dezenas de majestosas colunas coríntias e intermináveis escadas, tudo
+                                    isso feito em mármore branco. Foi inaugurado em 1911 para homenagear Vittorio
+                                    Emanuele II, primeiro rei da Itália depois da unificação.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card fotos">
+                        <div class="row g-0">
+                            <figure class="figura-card col-6">
+                                <img src="img/panteon2.JPG" class="img-fluid rounded-start foto-md h-80"
+                                    alt="Pantheon de Roma">
+                                <figcaption class="legenda-foto">Pantheon de Roma</figcaption>
+                            </figure>
+                            <div class="card-body col-6 texto-foto-md">
+                                <h5 class="card-title mb-3 text-start">Pantheon</h5>
+                                <p class="card-text">É o monumento mais bem preservado da Roma Antiga, desde o século
+                                    VII é um templo católico. No Interior estão as tumbas de diversos reis da Itália e
+                                    diversas obras de arte, destacam-se os túmulos do rei Vittorio Emanuele II e do
+                                    pintor e arquiteto renascentista Rafael. Por ser hoje uma igreja cristã, sua entrada
+                                    é gratuita.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card fotos">
+                        <div class="row g-0">
+                            <figure class="figura-card col-6">
+                                <img src="img/manjedoura.JPG" class="img-fluid rounded-start foto-md"
+                                    alt="Relíquia da manjedoura de Jesus Cristo">
+                                <figcaption class="legenda-foto">Relíquia da manjedoura de Jesus Cristo</figcaption>
+                            </figure>
+                            <div class="card-body col-6 texto-foto-md">
+                                <h5 class="card-title mb-3 text-start">Basílica de Santa Maria Maggiore</h5>
+                                <p class="card-text">A Basílica de Santa Maria Maggiore é considerada a maior
+                                    das igrejas dedicadas à Virgem Maria em Roma. A basílica abriga os restos do “berço
+                                    sagrado” no qual Jesus recém-nascido foi colocado. Suas tábuas de madeira são
+                                    compatíveis com o ácereiro, árvore que existia há dois mil anos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card fotos">
+                        <div class="row g-0">
+                            <figure class="figura-card col-6 foto-vaticano">
+                                <img src="img/vaticano.JPG" class="img-fluid rounded-start foto-md h-100"
+                                    alt="Basílica de São Pedro">
+                                <figcaption class="legenda-foto">Basílica de São Pedro</figcaption>
+                            </figure>
+                            <div class="card-body col-6 texto-foto-md">
+                                <h5 class="card-title mb-3 text-start">Vaticano</h5>
+                                <p class="card-text">O Vaticano, sede da Igreja Católica, é uma cidade-Estado que está
+                                    situada dentro de Roma. Tem apenas 0,44km<sup>2</sup>, e com uma população estimada
+                                    de 1.000 habitantes, é a menor entidade territorial do mundo. Na Cidade do Vaticano
+                                    há três visitas que se destacam: a Praça de São Pedro, a Basílica de São Pedro e os
+                                    Museus Vaticanos, recinto onde está a Capela Sistina.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card fotos">
+                        <div class="row g-0">
+                            <figure class="figura-card col-6">
+                                <img src="img/tritoni.JPG" class="img-fluid rounded-start foto-md h-80"
+                                    alt="Fontana del Tritone">
+                                <figcaption class="legenda-foto">Fontana del Tritone</figcaption>
+                            </figure>
+                            <div class="card-body col-6 texto-foto-md">
+                                <h5 class="card-title mb-3 text-start">Fontana del Tritone</h5>
+                                <p class="card-text">No centro da Piazza Barberini está a Fontana del Tritone. A
+                                    escultura mostra Tritão, mítico personagem da mitologia grega, filho de Netuno, cujo
+                                    tronco era de um homem e as pernas eram a cauda de um peixe, sorvendo água de uma
+                                    concha, sendo apoiado por quatro grandes peixes de duras feições.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+        </section>
+        <!-- o que ver - fim -->
+
+        <!-- informações - inicio -->
+        <section class="container my-4" id="informacoes">
+            <h2 class="color-text fw-bold pt-3 pb-1 text-start">Informações ao viajante</h2>
+            <div class="dica-topo mb-2">
+                <i class="bi bi-file-earmark-person"></i>
+                <p class="dica-titulo">Documentação necessária</p>
+            </div>
+            <p>A documentação necessária para viajar a Roma depende da nacionalidade do visitante. Os cidadãos
+                brasileiros podem entrar na Itália levando apenas o passaporte com pelo menos 6 meses de validade se
+                forem como turistas, por um período máximo de 90 dias.</p>
+
+            <div class="dica-topo mb-2">
+                <i class="bi bi-chat-right-quote"></i>
+                <p class="dica-titulo">Idioma</p>
+            </div>
+            <p>Embora o idioma oficial do país seja o italiano, muita gente fala inglês nas cidades mais turísticas como
+                Roma, além de ser possível entender um pouco de italiano por sua origem latina, como o português.</p>
+
+            <div class="dica-topo mb-2">
+                <i class="bi bi-calendar2-heart"></i>
+                <p class="dica-titulo">Seguro de viagem</p>
+            </div>
+            <p>Para entrar na Itália, os brasileiros devem obrigatoriamente ter um seguro-saúde com proteção de, no
+                mínimo, 30 mil euros para despesas médicas e hospitalares. </p>
+
+            <div class="dica-topo mb-2" id="viagem">
+                <i class="bi bi-airplane"></i>
+                <p class="dica-titulo">Melhor época para visitar</p>
+            </div>
+            <p>De maneira geral, a primavera (março a junho) e o outono (setembro a dezembro) são as épocas mais
+                agradáveis, com temperaturas mais amenas. O inverno, baixa temporada, tem como contrapartida diárias de
+                hotéis mais baratas e menos filas em atrações como os Museus do Vaticano.</p>
+
+        </section>
+        <!-- informações - fim -->
+    </main>
+    <!-- coneudo - fim -->
+
+    <!-- mapa - inicio -->
+    <div class="container-fluid mb-4" id="mapa">
+        <div class="container">
+            <h2 class="fw-bold my-3 color-text">Mapa de Roma</h2>
+            <div class="ratio ratio-16x9">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.25709183136!2d12.395911497138579!3d41.91024148853026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2zUm9tYSwgSXTDoWxpYQ!5e0!3m2!1spt-BR!2sbr!4v1671754670932!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- mapa - fim -->
+
+    <!-- rodapé - inicio -->
+    <footer class="container-fluid text-center" id="footer">
+        <p class="p-2">Desenvolvido por Anna Flávia Lima - 2022 - Todos os direitos reservados</p>
+    </footer>
+    <!-- rodape - fim -->
+
+</body>
+
+</html>

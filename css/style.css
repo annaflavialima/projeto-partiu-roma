@@ -1,0 +1,154 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.primary-bg-color{
+    background-color: #8B4222;
+}
+
+.color-text{
+    color: #8B4222;
+}
+
+.color-secondary-text{
+    color: #fff;
+}
+
+#listIcon i{
+    font-size: 22px;
+}
+
+#bottom-navbar a:hover{
+    color: #fff;
+
+}
+.coliseumIcon{
+    width: 30px;
+}
+
+#arrowDown i{
+    color: #8B4222;
+    font-size: 30px;
+}
+
+#roma,
+#oquever,
+#informacoes{
+    text-align: justify;
+}
+
+.card{
+    border: none;
+    background-color: #fff;
+}
+
+.fotos{
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.185);
+}
+
+.legenda-foto{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.fotos h5{
+    color: #8B4222;
+    font-weight: 700;
+}
+
+.foto-md{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.texto-foto-md{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foto-vaticano{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dica-topo{
+    color: #8B4222;
+    display: flex;
+    align-items: baseline;
+}
+
+.dica-topo i{
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.dica-titulo{
+    color: #8B4222;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#footer{
+    font-size: 12px;
+}
+
+
+/* estilização do scrollbar */
+::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #8B4222;
+}
+::-webkit-scrollbar-thumb {
+    background: #8B4222;
+    border-radius: 5px;
+}
+
+/* responsividade */
+@media (max-width: 325px) {
+    .dica-titulo{
+        font-size: 17px;
+    }    
+}
+
+@media (min-width: 425px){
+    #logo-top img{
+        width: 400px;
+    }
+
+    #footer{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px){
+    .texto-foto-md {
+        align-items: center;
+    }
+
+    .texto-foto-md h5{
+        font-size: 28px;
+        padding-left: 15px;
+    }
+
+    .texto-foto-md p{
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .descricao{
+        padding-top: 0;
+    }
+}
